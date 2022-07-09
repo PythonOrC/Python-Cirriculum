@@ -25,6 +25,8 @@
 
 - Edit the message and print it again
 
+  <img src="assets/4DncUpr1oH1dNu_dYcHu6EhdSN071fnOem0sUxE3erf8SxXXgBd-aCcYCRD_Ifboqm6_ilnRZP5SuWxEwPkkNAk3yQomCQvonuqtyhUQ7Mr86IWl_Ur0KJ4rcrbTAcur5DPu3RDDepgyoN8ObvLL.png" alt="img" style="zoom:50%;" />
+
 ### 1.2.1 - Naming and Usage
 
   - only letters (A-Z, a-z), numbers (0-9), underscore (_), but cannot start with numbers (0-9)
