@@ -31,7 +31,7 @@ Example: <u>[`seasons.py`](####`seasons.py`)</u>
   - actions of a variable can also be performed on a list
   Example: <u>[`seasons_index.py`](####`seasons_index.py`)</u>
 - negative index will count elements backwards
-Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u
+Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u>
 
 ## 2.2 Add, Edit, Remove Elements
 
