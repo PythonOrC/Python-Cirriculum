@@ -49,6 +49,7 @@ Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u
   Example: <u>[`seasons_edit.py`](####`seasons_edit.py`)</u>
 
 ### 2.2.2 Add an Element
+
  - There are two major ways to add values to a list
 1. Add to the end
    - `list.append(value)`
@@ -57,9 +58,9 @@ Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u
    - all values after will increase `index` by `1`
    Example: <u>[`seasons_add.py`](####`seasons_add.py`)</u>
 
-### Remove an Element
+### 2.2.3 Remove an Element
 
- - There are three ways to delete an value, each with their use cases
+ - There are three ways to delete a value, each with their use cases
 1. `del`
    - `del list[index]`
    - used when knowing the index
@@ -101,7 +102,7 @@ Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u
    - `len(list)`
    - produces the length of the list provided
    Example: <u>[`seasons_len.py`](####`seasons_remove.py`)</u>
-## 2.3 Index Error
+## 2.4 Index Error
  - a common error when manipulating lists is `IndexError: List index out of range`
    - accessing index that does not exist
    - only `index` from `-1 * len(list)` to `len(list) - 1` exist
