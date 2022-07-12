@@ -2,7 +2,7 @@
 
 
 
-## 2.0 Table of Contents
+## 2.0 - Table of Contents
 
 [TOC]
 
