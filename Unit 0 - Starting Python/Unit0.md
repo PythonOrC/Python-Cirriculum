@@ -41,7 +41,9 @@
      - http://driedapricots.xyz/
    
      <img src="assets/ipjfh9uv_TJ2uaIAHGhyfTGQ8P6dPrbfODfvT3eFPqIUFIlDCt3dU5_0_KKqSXtwQtmCKMOTS0bE6AiWiTmxd0mbDvwhdbSa5mK_X0fCrxNg5FggW19UamhU41g6qyKOPoDzWwDQbE2t7_J7Degr.png" alt="img" style="zoom: 60%;" /><img src="assets/OHS08JG1m0q8gmtCUHGmNDbuJ180WrFdW6dZHSc0z8CrSMJsVLeGRkIKoyaBr8KptIYaf-KGzy9mgiXKU1vwSbXJzjc9nzHngECtka3eOf52ElhMkN_aLCDls6KnYtyWzvDYjMGPN38arpR3WlFA.png" alt="img" style="zoom: 60%;" /><img src="assets/image-20220711203733806.png" alt="image-20220711203733806" style="zoom:45%;" /><img src="assets/GO7zFLH8JSaa5Y6qFvggnbhWZYjVBpw5s2OwD2ToKXY9RxnuGdSvA1K1195-wWAPTBcOsWFqdF2YS-IHRmTtDhABqi_s_AURrRflouRnvbDlcDIqzkkilmVFXFFQAT5nlagD7NnilxEsjG_1fvDF.png" alt="img" style="zoom:80%;" />
+
 ## 0.4 - Class Format
+
  - Fun learning experience
  - Cameras
  - Break
