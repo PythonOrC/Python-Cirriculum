@@ -59,7 +59,7 @@ Example: <u>[`missing.py`](####`missing.py`)</u>
 ## 3.3 - Number List
  - managing stats of a character
  - monitoring a region
- 
+
 ### 3.3.1 - `Range()`
  - range can be used to generate a list of numbers
  - `range(start, end)`
@@ -81,7 +81,7 @@ Example: <u>[`square.py`](####`square.py`)</u>
    - `max()`
  - find the sum of the numbers
    - `sum()`
-Example: <u>[`stats.py`](####`stats.py`)</u>
+   Example: <u>[`stats.py`](####`stats.py`)</u>
 ### 3.3.4 -  List Comprehension
  - code to generate a list can be shortened to one line with List Comprehension
  - comapct
@@ -91,7 +91,7 @@ Example: <u>[`list_comprehension.py`](####`list_comprehension.py`)</u>
 
 ## 3.4 - Slicing
  - manage all elements in the list at once
- 
+
 ### 3.4.1 - Slice
  - specify the beginning, the end, and the step
  - with `[]` and `:`
@@ -102,7 +102,7 @@ Example: <u>[`slice.py`](####`slice.py`)</u>
  - use cases
    - top three player
    - multi-page in website
-Example: <u>[`traverse_slice.py`](####`traverse_slice.py`)</u>
+   Example: <u>[`traverse_slice.py`](####`traverse_slice.py`)</u>
 ### 3.4.3 - Copy List
  - slicing is needed to create a seperate list
  - normally list variables are linked
@@ -327,7 +327,7 @@ __Output:__
 [1, 3]
 [7, 8, 9]
 ```
-### `traverse_slice.py`
+#### `traverse_slice.py`
 ```python
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 for i in numbers[:3]:
@@ -342,7 +342,7 @@ __Output:__
 2
 
 ```
-### `copy.py`
+#### `copy.py`
 ```python
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 digits = numbers
