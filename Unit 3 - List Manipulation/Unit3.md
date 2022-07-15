@@ -6,6 +6,10 @@
 
 [TOC]
 
+
+
+![img](assets/z0lZt2R_90n3Mmkgvgx8ZWHeTkMUo2UL8Qr4zgohwmEfMChyTh_gGPtQxOr6dxKD8mlbFtwT5SkrpUbr4wn184uizUGKwm0Ka3njQzAiV2W86leEvuGAUEnpz_uayAoQ5XtR70VvgEPWwDA_0mhZ.png)
+
 ## 3.1 - List Traversal
 
  - Traversal = going through each element
@@ -109,7 +113,37 @@ Example: <u>[`slice.py`](####`slice.py`)</u>
  - they are the same list
 
 Example: <u>[`copy.py`](####`copy.py`)</u>
-## 3.8 - Sample Code
+## 3.4 - Tuple
+ - static
+ - immutable
+### 3.4.1 - Define Tuple
+ - defined just like list but with `()`
+ - everything works just as a list
+Example: <u>[`define_tuple.py`](####`define_tuple.py`)</u>
+### 3.4.2 - Tuple Traversal
+ - identical to lists
+ - for loop
+Example: <u>[`define_tuple.py`](####`traverse_tuple.py`)</u>
+### 3.4.3 - Edit a Tuple
+ - only way is to redefine
+Example: <u>[`define_tuple.py`](####`edit_tuple.py`)</u>
+
+## 3.5 - Code Format
+ - conventional format
+ - easy to read
+ - easy to understand
+ - followed by professionals
+
+### 3.5.1 - Style Guide
+ - Python Enhancement Proposals
+ - PEP8: https://peps.python.org/
+ - indentation should be 4 spaces
+ - a line of code should be < 80 characters
+ - empty lines can seperate function of a code
+
+
+
+## 3.6 - Sample Code
 
 #### `magicians.py`
 
@@ -364,6 +398,51 @@ __Output:__
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+```
+
+#### `define_tuple.py`
+```python
+dimensions = (1920, 1080)
+print(dimensions[0])
+print(dimensions[1])
+dimensions[0] = 720
+dimensions.append(10)
+```
+
+
+__Output:__ 
+```
+1920
+1080
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+```
+#### `traverse_tuple.py`
+```python
+dimensions = (1920, 1080)
+for dimension in dimensions:
+	print(dimension)
+```
+
+
+__Output:__ 
+```
+1920
+1080
+```
+#### `edit_tuple.py`
+```python
+dimensions = (1920, 1080)
+print(dimensions)
+dimensions = (1080, 720)
+print(dimensions)
+```
+
+
+__Output:__ 
+```
+(1920, 1080)
+(1080, 720)
 ```
 ## Homework
 
