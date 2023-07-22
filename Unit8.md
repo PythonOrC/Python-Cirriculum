@@ -83,24 +83,23 @@ permalink: /unit8/
 - use a function
 - offset the value
 
-1.  Edit the Value
+1. Edit the Value
 
-- simple edit the attribute as how you would edit normal variables
-- `obj.attr = val`
+   - simple edit the attribute as how you would edit normal variables
+   - `obj.attr = val`
 
-2.  Edit with a Method
+2. Edit with a Method
 
-- usually called an "update method"
-- changes the value with a function
-- it is sometimes a safer way to update
-- more functionality to just edit
+   - usually called an "update method"
+   - changes the value with a function
+   - it is sometimes a safer way to update
+   - more functionality to just edit
 
-3.  offset value
-
-- you can offset the values by adding a value to the attribute
-- useful when you don't know the original data
-- don't care about the original data
-- difference is all that matters
+3. offset value
+   - you can offset the values by adding a value to the attribute
+   - useful when you don't know the original data
+   - don't care about the original data
+   - difference is all that matters
 
 ## 8.3 - Inheritance
 
