@@ -1,8 +1,44 @@
-# Unit 1 - Variables and Simple Data Types
+---
+title: Unit 1 - Variables and Simple Data Types
+permalink: /unit1/
+---
 
-## 1.0 - Table Of Contents
+## 1.0 - Table Of Contents<!-- omit from toc -->
 
-[TOC]
+- [1.1 - What Happened?](#11---what-happened)
+- [1.2 - Variables](#12---variables)
+  - [1.2.1 - Naming and Usage](#121---naming-and-usage)
+  - [1.2.2 - Common Naming Error](#122---common-naming-error)
+  - [1.2.3 - Sample Code](#123---sample-code)
+    - [`hello_world.py`](#hello_worldpy)
+    - [`error.py`](#errorpy)
+- [1.3 - Strings](#13---strings)
+  - [1.3.1 - Change to UPPER or lowercase](#131---change-to-upper-or-lowercase)
+  - [1.3.2 - String Concatenation](#132---string-concatenation)
+  - [1.3.3 - Escape Character](#133---escape-character)
+  - [1.3.4 - Remove Extra Spaces](#134---remove-extra-spaces)
+  - [1.3.5 - Common Syntax Error](#135---common-syntax-error)
+  - [1.3.6 - Sample Code](#136---sample-code)
+    - [`cases.py`](#casespy)
+    - [`concatenate.py`](#concatenatepy)
+    - [`escape_char.py`](#escape_charpy)
+    - [`remove_space.py`](#remove_spacepy)
+- [1.4 - Numbers](#14---numbers)
+  - [1.4.1 - Integers](#141---integers)
+  - [1.4.2 - Floats](#142---floats)
+  - [1.4.3 - Avoid Syntax Error With `str()`](#143---avoid-syntax-error-with-str)
+  - [1.4.4 - Sample Code](#144---sample-code)
+    - [`integer.py`](#integerpy)
+    - [`float.py`](#floatpy)
+    - [`type_error.py`](#type_errorpy)
+    - [`type_error_fixed.py`](#type_error_fixedpy)
+- [1.5 - Comments](#15---comments)
+  - [1.5.1 - How to Comment](#151---how-to-comment)
+  - [1.5.2 - Why Comment](#152---why-comment)
+  - [1.4.3 - Sample Code](#143---sample-code)
+    - [`comment.py`](#commentpy)
+- [1.7 - Homework](#17---homework)
+
 ## 1.1 - What Happened?
 
 - `.py` indicates a `python` file
@@ -21,7 +57,7 @@
 
 - Variables are like containers that can store information
 
-- add a variable `message` to <u>[`hello_world.py`](####`hello_world.py`)</u>
+- add a variable `message` to [`hello_world.py`](#hello_worldpy)
 
 - Edit the message and print it again
 
@@ -29,29 +65,29 @@
 
 ### 1.2.1 - Naming and Usage
 
-  - only letters (A-Z, a-z), numbers (0-9), underscore (_), but cannot start with numbers (0-9)
+- only letters (A-Z, a-z), numbers (0-9), underscore (\_), but cannot start with numbers (0-9)
 
-    :heavy_check_mark:: `message_1`
+  ✔️: `message_1`
 
-    :x:: `1_message`
+  ❌: `1_message`
 
-  - no spaces ( ), but you can separate words with an underscore (_)
+- no spaces ( ), but you can separate words with an underscore (\_)
 
-    :heavy_check_mark:: `greeting_message`
+  ✔️: `greeting_message`
 
-    :x:: `greeting message`
+  ❌: `greeting message`
 
-  - don’t use keywords reserved by the language. 
+- don’t use keywords reserved by the language.
 
-    :heavy_check_mark:: `print_msg`
+  ✔️: `print_msg`
 
-    :x:: ` print`
+  ❌: `print`
 
 ### 1.2.2 - Common Naming Error
 
-- a common mistake is misspelling a name: <u>[`error.py`](####error.py)</u>
+- a common mistake is misspelling a name: [`error.py`](#errorpy)
 - traceback is an error message
-  - reason 
+  - reason
   - location
   - possible issue
 
@@ -68,13 +104,15 @@ print(message)
 message = "Hello Python world!"
 print(message)
 ```
+
 #### `error.py`
 
 ```python
 message = "Hello!"
 print(mesage)
 ```
-```
+
+```error
 Traceback (most recent call last):
   File "D:\Introduction to Python Programming\Unit 1\error.py", line 2, in <module>
     print(mesage)
@@ -86,13 +124,11 @@ NameError: name 'mesage' is not defined. Did you mean: 'message'?
 - Everything inside of either `""` or `''`
   - `"Hello"`
   - `'World!'`
-  
 - Why do we need both?
   - `'I told my friend, "Python is the best language!"'`
   - `"My brother's homework is much harder than mine."`
-  
 
-### 1.3.1 - Change to UPPER or lowercase.
+### 1.3.1 - Change to UPPER or lowercase
 
 - `.title()` capitalizes the first letter of all words
 
@@ -100,25 +136,20 @@ NameError: name 'mesage' is not defined. Did you mean: 'message'?
 
 - `.lower()` lowercase every letter
 
-  
-
-Example: <u>[`cases.py`](####`cases.py`)</u>
+Example: [`cases.py`](#casespy)
 
 ### 1.3.2 - String Concatenation
 
 - to concatenate is to combine two strings
 - you can use `+` to combine two strings
 
-
-
-Example: <u>[`concatenate.py`](####`concatenate.py`)</u>
-
+Example: [`concatenate.py`](#concatenatepy)
 
 ### 1.3.3 - Escape Character
 
 - a special character that formats the string
 - in python this character is `\`
-- most commonly used: 
+- most commonly used:
   - `\n`: new line
   - `\t`: whitespace (tab)
   - `\`: converts the special character after to an ordinary character
@@ -126,23 +157,25 @@ Example: <u>[`concatenate.py`](####`concatenate.py`)</u>
     - `\"`
     - `\'`
 
-Example: <u>[`escape_char.py`](####`escape_char.py`)</u>
+Example: [`escape_char.py`](#escape_charpy)
 
 ### 1.3.4 - Remove Extra Spaces
-  - `python` vs `python `
-  - this is important when comparing strings
-  - `python` is not the same as `python `
-  - `.rstrip()` removes spaces at the end
-  - `.lstrip()` removes spaces at the beginning
-  - `.strip()` removes spaces at both the beginning and the end
 
-Example: <u>[`remove_space.py`](####`remove_space.py`)</u>
+- `"python"` vs `"python "`
+- this is important when comparing strings
+- `"python"` is not the same as `"python "`
+- `.rstrip()` removes spaces at the end
+- `.lstrip()` removes spaces at the beginning
+- `.strip()` removes spaces at both the beginning and the end
+
+Example: [`remove_space.py`](#remove_spacepy)
 
 ### 1.3.5 - Common Syntax Error
-  - you cannot use `'` in string surround with `''` and `"` between `""`
-  - Two possible solutions:
-    - `' \' '` & ` "\" "`
-    - `" ' "` or `' " '` 
+
+- you cannot use `'` in string surround with `''` and `"` between `""`
+- Two possible solutions:
+  - `' \' '` & `"\" "`
+  - `" ' "` or `' " '`
 
 ### 1.3.6 - Sample Code
 
@@ -156,8 +189,10 @@ name = "John Appleseed"
 print(name.upper())
 print(name.lower())
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 John Appleseed
 JOHN APPLESEED
 john appleseed
@@ -172,8 +207,10 @@ full_name = first_name + " " + last_name
 print(full_name)
 print("Hello, " + full_name.title() + "!")
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 john appleseed
 Hello, John Appleseed!
 ```
@@ -187,18 +224,20 @@ print("Python\nC\nJava")
 print()
 print("Languages:\n\tPython\n\tC\n\tJava")
 ```
-__Output:__ 
-```
-	Python
+
+**Output:**
+
+```text
+  Python
 
 Python
 C
 Java
 
 Languages:
-	Python
-	C
-	Java
+  Python
+  C
+  Java
 ```
 
 #### `remove_space.py`
@@ -209,14 +248,17 @@ print("'" + best_language.rstrip() + "'")
 print("'" + best_language.lstrip() + "'")
 print("'" + best_language.strip() + "'")
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ' Python'
 'Python '
 'Python'
 ```
 
 ## 1.4 - Numbers
+
 - There are two major types of numbers
   - `int`, or integers. e.g. `1, 2, 3, 4`
   - `float`, or decimals. e.g. `1.1, 2.2, 3.3, 4.4`
@@ -228,25 +270,26 @@ __Output:__
 - `**` is used to indicate a squre, `a**b` is the same as $a^b$
 - parenthesis can control the order of operation
 
-Example: <u>[`integer.py`](####`integer.py`)</u>
+Example: [`integer.py`](#integerpy)
 
 ### 1.4.2 - Floats
 
-- The same rules for `int` apply to `float` as well. 
+- The same rules for `int` apply to `float` as well.
 - Due to the nature of the computer, addition might not be 100% accurate
   - 0.2 + 0.1 = 0.30000000000000004
 
-Example: <u>[`float.py`](####`float.py`)</u>
+Example: [`float.py`](#floatpy)
 
 ### 1.4.3 - Avoid Syntax Error With `str()`
 
 - Only elements of the same data type can be added together. e.g. `str` with `str`, numbers with numbers
 - when you try to add a `str` to a `int` or `float`, an `TypeError` occurs
-  - Example: <u>[`type_error.py`](####`type_error.py`)</u>
+  - Example: [`type_error.py`](#type_errorpy)
 - This can be fixed with `str()` method to convert variables of other data type to `string`
-  - Example: <u>[`type_error_fixed.py`](####`type_error_fixed.py`)</u>
+  - Example: [`type_error_fixed.py`](#type_error_fixedpy)
 
 ### 1.4.4 - Sample Code
+
 #### `integer.py`
 
 ```python
@@ -258,8 +301,10 @@ print(2 // 3)
 print(2 ** 3)
 print((2 - 3) * 3)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 5
 -1
 6
@@ -277,13 +322,16 @@ print(2 * 0.1)
 print(0.2 + 0.1)
 print(3 * 0.1)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 0.2
 0.2
 0.30000000000000004
 0.30000000000000004
 ```
+
 #### `type_error.py`
 
 ```python
@@ -291,12 +339,15 @@ age = 23
 message = "Happy" + age + "rd birthday!"
 print(message)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```error
 Traceback (most recent call last):
   File "tpye_error.py", line 1, in <module>
 TypeError: can only concatenate str (not "int") to str
 ```
+
 #### `type_error_fixed.py`
 
 ```python
@@ -304,22 +355,28 @@ age = 23
 message = "Happy" + str(age) + "rd birthday!"
 print(message)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 Happy 23rd birthday!
 ```
 
 ## 1.5 - Comments
+
 ### 1.5.1 - How to Comment
-- use `#` for a inline comment
-- use ` '''` or `""" ` for multi-line comment
-Example: <u>[`comment.py`](####`comment.py`)</u>
+
+- use `# for a inline comment
+- use `'''` or `"""` for multi-line comment
+  Example: [`comment.py`](#commentpy)
 
 ### 1.5.2 - Why Comment
+
 - purpose of code
 - how the code functions
 - inputs and outputs
 - etc.
+
 ### 1.4.3 - Sample Code
 
 #### `comment.py`
@@ -337,13 +394,14 @@ double quotation mark also works
 """
 ```
 
+**Output:**
 
-__Output:__ 
-```
+```text
 Hello
 ```
 
 ## 1.7 - Homework
+
 - check out Zen of Python by Tim Peters
 - to do so, go to command line
 - type `python` and press `return`

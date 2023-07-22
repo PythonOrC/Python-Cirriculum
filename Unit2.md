@@ -1,12 +1,33 @@
-#  Unit 2 - Intro to List
+---
+title: Unit 2 - Intro to List
+permalink: /unit2/
+---
 
+## 2.0 - Table of Contents<!-- omit from toc -->
 
-
-## 2.0 - Table of Contents
-
-[TOC]
-
-
+- [2.1 - What Is a List](#21---what-is-a-list)
+  - [2.1.1 - Access Elements in List](#211---access-elements-in-list)
+- [2.2 Add, Edit, Remove Elements](#22-add-edit-remove-elements)
+  - [2.2.1 Edit an Element](#221-edit-an-element)
+  - [2.2.2 Add an Element](#222-add-an-element)
+  - [2.2.3 Remove an Element](#223-remove-an-element)
+- [2.3 Order the Elements](#23-order-the-elements)
+- [2.4 Index Error](#24-index-error)
+- [2.5 Sample Code](#25-sample-code)
+  - [`seasons.py`](#seasonspy)
+  - [`seasons_index.py`](#seasons_indexpy)
+  - [`seasons_reverse_index.py`](#seasons_reverse_indexpy)
+    - [`seasons_edit.py`](#seasons_editpy)
+    - [`seasons_add.py`](#seasons_addpy)
+    - [`seasons_del.py`](#seasons_delpy)
+    - [`seasons_pop.py`](#seasons_poppy)
+    - [`seasons_remove.py`](#seasons_removepy)
+    - [`seasons_sort.py`](#seasons_sortpy)
+    - [`seasons_sorted.py`](#seasons_sortedpy)
+    - [`seasons_reverse.py`](#seasons_reversepy)
+    - [`seasons_len.py`](#seasons_lenpy)
+    - [`seasons_error.py`](#seasons_errorpy)
+- [Homework](#homework)
 
 ## 2.1 - What Is a List
 
@@ -15,7 +36,7 @@
 - data stored inside can be of different data types
 - represented with `[]` and the elements are separated with `,`
 
-Example: <u>[`seasons.py`](####`seasons.py`)</u>
+Example: [`seasons.py`](#seasonspy)
 
 <img src="assets/sPZmw20MjHKTu4QIMcupuLDQA-BfEDX51KIG63H-CYiYsTRQyLmMxPYE3Pr8qd9DfxfuoZJrP6tdDyI5p6Jnq0lpSNrZ8rSPX9444GoIZKY-kKpT2cKljK_qBAnUCHSCwU31x0mExUh7TZCTzHYw.png" alt="img" style="zoom:50%;" />
 
@@ -29,9 +50,9 @@ Example: <u>[`seasons.py`](####`seasons.py`)</u>
   - e.g. the index of the third element of the list is `2`
 - each element should be treated like an individual variable
   - actions of a variable can also be performed on a list
-  Example: <u>[`seasons_index.py`](####`seasons_index.py`)</u>
+    Example: [`seasons_index.py`](#seasons_indexpy)
 - negative index will count elements backwards
-Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u>
+  Example: [`seasons_reverse_index.py`](#seasons_reverse_indexpy)
 
 ## 2.2 Add, Edit, Remove Elements
 
@@ -42,118 +63,140 @@ Example: <u>[`seasons_reverse_index.py`](####`seasons_reverse_index.py`)</u>
     - users of a website
 
 ### 2.2.1 Edit an Element
+
 - similar to variables and accessing element
   - list name
   - index
   - new vlaue
-  Example: <u>[`seasons_edit.py`](####`seasons_edit.py`)</u>
+    Example: [`seasons_edit.py`](#seasons_editpy)
 
 ### 2.2.2 Add an Element
 
- - There are two major ways to add values to a list
+- There are two major ways to add values to a list
+
 1. Add to the end
    - `list.append(value)`
 2. Add to the middle
    - `list.insert(index, value)`
    - all values after will increase `index` by `1`
-   Example: <u>[`seasons_add.py`](####`seasons_add.py`)</u>
+     Example: [`seasons_add.py`](#seasons_addpy)
 
 ### 2.2.3 Remove an Element
 
- - There are three ways to delete a value, each with their use cases
+- There are three ways to delete a value, each with their use cases
+
 1. `del`
    - `del list[index]`
    - used when knowing the index
-   Example: <u>[`seasons_del.py`](####`seasons_del.py`)</u>
+     Example: [`seasons_del.py`](#seasons_delpy)
 2. `pop()`
    - `list.pop()` or `list.pop(index)`
    - used when the value is needed for operations
-   Example: <u>[`seasons_pop.py`](####`seasons_pop.py`)</u>
+     Example: [`seasons_pop.py`](#seasons_poppy)
 3. `remove()`
    - `lis.remove(element)`
    - used when knowing the value of the element
-   Example: <u>[`seasons_remove.py`](####`seasons_remove.py`)</u>
+     Example: [`seasons_remove.py`](#seasons_removepy)
 
 ## 2.3 Order the Elements
 
- - order of elements sometimes need to be changed
- - there are two major ways to sort a list
+- order of elements sometimes need to be changed
+- there are two major ways to sort a list
 
 1. Permanent Sorting
+
    - `list.sort()`
    - permanently change the order
    - irreversible
    - `list.sort(reverse=True)` to reverse the order
-   Example: <u>[`seasons_sort.py`](####`seasons_remove.py`)</u>
+     Example: [`seasons_sort.py`](#seasons_removepy)
 
 2. Temporary Sorting
    - `sorted(list)`
    - temporarily reorder the list
    - can be reversed with `reverse=True` as well
-   Example: <u>[`seasons_sorted.py`](####`seasons_remove.py`)</u>
- - There are also two very useful tools for ordering lists
+     Example: [`seasons_sorted.py`](#seasons_removepy)
+
+- There are also two very useful tools for ordering lists
 
 1. Reverse the List
    - `list.reverse()`
    - permanently reverse the order of the list
    - to restore just reverse again
-   Example: <u>[`seasons_reverse.py`](####`seasons_remove.py`)</u>
+     Example: [`seasons_reverse.py`](#seasons_removepy)
 2. Check the Length
    - `len(list)`
    - produces the length of the list provided
-   Example: <u>[`seasons_len.py`](####`seasons_remove.py`)</u>
+     Example: [`seasons_len.py`](#seasons_removepy)
+
 ## 2.4 Index Error
- - a common error when manipulating lists is `IndexError: List index out of range`
-   - accessing index that does not exist
-   - only `index` from `-1 * len(list)` to `len(list) - 1` exist
-   Example: <u>[`seasons_error.py`](####`seasons_error.py`)</u>
+
+- a common error when manipulating lists is `IndexError: List index out of range`
+  - accessing index that does not exist
+  - only `index` from `-1 * len(list)` to `len(list) - 1` exist
+    Example: [`seasons_error.py`](#seasons_errorpy)
+
 ## 2.5 Sample Code
 
-#### `seasons.py`
+### `seasons.py`
 
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'summer', 'autumn', 'winter']
 ```
-#### `seasons_index.py`
+
+### `seasons_index.py`
 
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(seasons[0])
 print("It is now " + seasons[1].title() = ".")
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 spring
 It is now summer.
 ```
-#### `seasons_reverse_index.py`
+
+### `seasons_reverse_index.py`
 
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(seasons[-1])
 print(seasons[-2])
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 winter
 autumn
 ```
+
 #### `seasons_edit.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 seasons[2] = "fall"
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'summer', 'autumn', 'winter']
 ```
+
 #### `seasons_add.py`
+
 ```python
 seasons = ["spring", "autumn"]
 seasons.append("winter")
@@ -161,24 +204,30 @@ print(seasons)
 season.insert(1, "summer")
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'fall', 'winter']
 ['spring', 'summer', 'fall', 'winter']
 ```
 
 #### `seasons_del.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 del seasons[2]
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'summer', 'winter']
 ```
 
 #### `seasons_pop.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 seasons.pop(1)
@@ -186,24 +235,31 @@ print(seasons)
 seasons.pop()
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'autumn', 'winter']
 ['spring', 'autumn']
 ```
 
 #### `seasons_remove.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 szn = "summer"
 seasons.remove(szn)
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['spring', 'autumn', 'winter']
 ```
+
 #### `seasons_sort.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 seasons.sort()
@@ -211,54 +267,73 @@ print(seasons)
 seasons.sort(reverse=True)
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['autumn', 'spring', 'summer', 'winter']
 ['winter', 'summer', 'spring', 'autumn']
 ```
+
 #### `seasons_sorted.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(sorted(seasons))
 print(sorted(seasons, reverse=True))
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['autumn', 'spring', 'summer', 'winter']
 ['winter', 'summer', 'spring', 'autumn']
 ['spring', 'summer', 'autumn', 'winter']
 ```
+
 #### `seasons_reverse.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 seasons.reverse()
 print(seasons)
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 ['winter', 'autumn', 'summer', 'spring']
 ```
+
 #### `seasons_len.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(len(seasons))
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 4
 ```
+
 #### `seasons_error.py`
+
 ```python
 seasons = ["spring", "summer","autumn","winter"]
 print(seasons[4])
 print(seasons[-5])
 ```
-__Output:__ 
-```
+
+**Output:**
+
+```text
 File "<seasons_error>", line 2, in <module>
 IndexError: list index out of range
 ```
+
 ## Homework
 
 TBD
