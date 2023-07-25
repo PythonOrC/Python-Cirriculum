@@ -11,5 +11,5 @@ title: Introduction to Python Programming
 - [Unit 6: User Input & while Loop](/unit6)
 - [Unit 7: Functions](/unit7)
 - [Unit 8: Class](/unit8)
-- [Unit 9: Files & Exceptions](/unit9)
-- [Unit 10: Testing Code](/unit10)
+  <!-- - [Unit 9: Files & Exceptions](/unit9) -->
+  <!-- - [Unit 10: Testing Code](/unit10) -->
