@@ -27,7 +27,7 @@ permalink: /unit0/
 
 - Python comes with many libraries.
 
-<img src="Python-Curriculum/assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
+<img src="../assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
 
 ## 0.2 - Is Python Useful?
 
@@ -38,7 +38,7 @@ permalink: /unit0/
 - Computer Vision
 - Game Development
 
-<img src="assets/17EY6SkYxUC6yudJAZ9UV1kasBbxFpi9PG1RlbQkb-8iVRV2w2x6t7hz4Jy2dwpOxYMhfJMXfDNcn_-L4PotA45iEeMgWVyCKe4D_DnVZmYpK8jFK0dhTTTrQFe-CsqKuA9r3VZ72TJijBFc5pHv.png" alt="img" style="zoom:50%;" />
+<img src="../assets/17EY6SkYxUC6yudJAZ9UV1kasBbxFpi9PG1RlbQkb-8iVRV2w2x6t7hz4Jy2dwpOxYMhfJMXfDNcn_-L4PotA45iEeMgWVyCKe4D_DnVZmYpK8jFK0dhTTTrQFe-CsqKuA9r3VZ72TJijBFc5pHv.png" alt="img" style="zoom:50%;" />
 
 ## 0.3 - What Can Be Learned Here?
 
@@ -53,7 +53,7 @@ permalink: /unit0/
   - Game Development with Arcade
   - Web development with Django
 
-<img src="assets/ipjfh9uv_TJ2uaIAHGhyfTGQ8P6dPrbfODfvT3eFPqIUFIlDCt3dU5_0_KKqSXtwQtmCKMOTS0bE6AiWiTmxd0mbDvwhdbSa5mK_X0fCrxNg5FggW19UamhU41g6qyKOPoDzWwDQbE2t7_J7Degr.png" alt="img" style="zoom: 60%;" /><img src="assets/OHS08JG1m0q8gmtCUHGmNDbuJ180WrFdW6dZHSc0z8CrSMJsVLeGRkIKoyaBr8KptIYaf-KGzy9mgiXKU1vwSbXJzjc9nzHngECtka3eOf52ElhMkN_aLCDls6KnYtyWzvDYjMGPN38arpR3WlFA.png" alt="img" style="zoom: 60%;" /><img src="assets/image-20220711203733806.png" alt="image-20220711203733806" style="zoom:45%;" /><img src="assets/GO7zFLH8JSaa5Y6qFvggnbhWZYjVBpw5s2OwD2ToKXY9RxnuGdSvA1K1195-wWAPTBcOsWFqdF2YS-IHRmTtDhABqi_s_AURrRflouRnvbDlcDIqzkkilmVFXFFQAT5nlagD7NnilxEsjG_1fvDF.png" alt="img" style="zoom:80%;" />
+<img src="../assets/ipjfh9uv_TJ2uaIAHGhyfTGQ8P6dPrbfODfvT3eFPqIUFIlDCt3dU5_0_KKqSXtwQtmCKMOTS0bE6AiWiTmxd0mbDvwhdbSa5mK_X0fCrxNg5FggW19UamhU41g6qyKOPoDzWwDQbE2t7_J7Degr.png" alt="img" style="zoom: 60%;" /><img src="../assets/OHS08JG1m0q8gmtCUHGmNDbuJ180WrFdW6dZHSc0z8CrSMJsVLeGRkIKoyaBr8KptIYaf-KGzy9mgiXKU1vwSbXJzjc9nzHngECtka3eOf52ElhMkN_aLCDls6KnYtyWzvDYjMGPN38arpR3WlFA.png" alt="img" style="zoom: 60%;" /><img src="../assets/image-20220711203733806.png" alt="image-20220711203733806" style="zoom:45%;" /><img src="../assets/GO7zFLH8JSaa5Y6qFvggnbhWZYjVBpw5s2OwD2ToKXY9RxnuGdSvA1K1195-wWAPTBcOsWFqdF2YS-IHRmTtDhABqi_s_AURrRflouRnvbDlcDIqzkkilmVFXFFQAT5nlagD7NnilxEsjG_1fvDF.png" alt="img" style="zoom:80%;" />
 
 ## 0.4 - Class Format
 
@@ -73,7 +73,7 @@ permalink: /unit0/
 - Take a break if you are done
 - If not, please do it now and feel free to ask any questions
 
-<img src="assets/sublime_text-16573224375639.png" alt="Sublime Text - Text Editing, Done Right" style="zoom:80%;" /><img src="assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
+<img src="../assets/sublime_text-16573224375639.png" alt="Sublime Text - Text Editing, Done Right" style="zoom:80%;" /><img src="../assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
 
 ## 0.6 - A Note On Organization
 
@@ -81,13 +81,13 @@ permalink: /unit0/
 
 - Recommend organizing by units. (This is how the course itself is structured)
 
-![img](assets/xKHVeDNUk-ElzyGExw30w5LGnGvc8sdvwTrZf61o3cPbUhplOs_qUg3BGFmSt1kPufdpHgeeO-i68xIsc3nQ4wQUIc2hZCznQGgbSRja7GwIU8rK7gfN8mDy0ITt3doY8gFYVRoYtFpWs2XieC16jA.png)
+![img](../assets/xKHVeDNUk-ElzyGExw30w5LGnGvc8sdvwTrZf61o3cPbUhplOs_qUg3BGFmSt1kPufdpHgeeO-i68xIsc3nQ4wQUIc2hZCznQGgbSRja7GwIU8rK7gfN8mDy0ITt3doY8gFYVRoYtFpWs2XieC16jA.png)
 
 ## 0.7 - Hello, world
 
 - The first line of code in a new language: `Hello, world!`
 
-  ![img](assets/bpKZwkUkphlDuWS9eXDMPkICFtaBdzleNEe-EUTYBmY5XlozhsOi4jfDOnL0cA3FbT868KBY-Fb-6Pao5mNYZMZrdaZdNi03lCakgSw4oyoLGdmikTca-WQSSdfCjdvbKxMlyfoRDSvj7VMe8ISM.png)
+  ![img](../assets/bpKZwkUkphlDuWS9eXDMPkICFtaBdzleNEe-EUTYBmY5XlozhsOi4jfDOnL0cA3FbT868KBY-Fb-6Pao5mNYZMZrdaZdNi03lCakgSw4oyoLGdmikTca-WQSSdfCjdvbKxMlyfoRDSvj7VMe8ISM.png)
 
 ### 0.7.1 - Code
 
