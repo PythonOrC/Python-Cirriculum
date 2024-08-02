@@ -68,7 +68,7 @@ permalink: /unit0/
 - Take a break if you are done
 - If not, please do it now and feel free to ask any questions
 
-![img](assets/sublime_text-16573224375639.pn){:height="80%"}
+![img](assets/sublime_text-16573224375639.png){:height="80%"}
 ![img](assets/1200px-Python-logo-notext.svg.png){:height="30%"}
 
 ## 0.6 - A Note On Organization
