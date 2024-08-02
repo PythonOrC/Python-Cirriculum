@@ -39,7 +39,7 @@ permalink: /unit0/
 - Game Development
 
 
-![img](assets/17EY6SkYxUC6yudJAZ9UV1kasBbxFpi9PG1RlbQkb-8iVRV2w2x6t7hz4Jy2dwpOxYMhfJMXfDNcn_-L4PotA45iEeMgWVyCKe4D_DnVZmYpK8jFK0dhTTTrQFe-CsqKuA9r3VZ72TJijBFc5pHv.png){:height="36px"}
+![img](assets/17EY6SkYxUC6yudJAZ9UV1kasBbxFpi9PG1RlbQkb-8iVRV2w2x6t7hz4Jy2dwpOxYMhfJMXfDNcn_-L4PotA45iEeMgWVyCKe4D_DnVZmYpK8jFK0dhTTTrQFe-CsqKuA9r3VZ72TJijBFc5pHv.png){:height="50%"}
 <img src="../assets/17EY6SkYxUC6yudJAZ9UV1kasBbxFpi9PG1RlbQkb-8iVRV2w2x6t7hz4Jy2dwpOxYMhfJMXfDNcn_-L4PotA45iEeMgWVyCKe4D_DnVZmYpK8jFK0dhTTTrQFe-CsqKuA9r3VZ72TJijBFc5pHv.png" alt="img" style="zoom:50%;" />
 
 ## 0.3 - What Can Be Learned Here?
