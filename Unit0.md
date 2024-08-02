@@ -27,7 +27,7 @@ permalink: /unit0/
 
 - Python comes with many libraries.
 
-<img src="assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
+<img src="../assets/1200px-Python-logo-notext.svg.png" alt="Python (programming language) - Wikipedia" style="zoom:30%;" />
 
 ## 0.2 - Is Python Useful?
 
