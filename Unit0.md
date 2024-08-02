@@ -81,13 +81,13 @@ permalink: /unit0/
 
 - Recommend organizing by units. (This is how the course itself is structured)
 
-![img](../assets/xKHVeDNUk-ElzyGExw30w5LGnGvc8sdvwTrZf61o3cPbUhplOs_qUg3BGFmSt1kPufdpHgeeO-i68xIsc3nQ4wQUIc2hZCznQGgbSRja7GwIU8rK7gfN8mDy0ITt3doY8gFYVRoYtFpWs2XieC16jA.png)
+![img](assets/xKHVeDNUk-ElzyGExw30w5LGnGvc8sdvwTrZf61o3cPbUhplOs_qUg3BGFmSt1kPufdpHgeeO-i68xIsc3nQ4wQUIc2hZCznQGgbSRja7GwIU8rK7gfN8mDy0ITt3doY8gFYVRoYtFpWs2XieC16jA.png)
 
 ## 0.7 - Hello, world
 
 - The first line of code in a new language: `Hello, world!`
 
-  ![img](../assets/bpKZwkUkphlDuWS9eXDMPkICFtaBdzleNEe-EUTYBmY5XlozhsOi4jfDOnL0cA3FbT868KBY-Fb-6Pao5mNYZMZrdaZdNi03lCakgSw4oyoLGdmikTca-WQSSdfCjdvbKxMlyfoRDSvj7VMe8ISM.png)
+  ![img](assets/bpKZwkUkphlDuWS9eXDMPkICFtaBdzleNEe-EUTYBmY5XlozhsOi4jfDOnL0cA3FbT868KBY-Fb-6Pao5mNYZMZrdaZdNi03lCakgSw4oyoLGdmikTca-WQSSdfCjdvbKxMlyfoRDSvj7VMe8ISM.png)
 
 ### 0.7.1 - Code
 
